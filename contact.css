@@ -15,7 +15,7 @@
     color: white;
     font-size: 4rem;
     font-weight: 100;
-    margin-left: 17px;
+    margin-left: 20px;
     margin-top: 100px;
 }
 
@@ -30,17 +30,17 @@
                          ID/Class should've been used. 
                          For a small demo 
                          it's okaish for now */
-    animation: showup 7s ;
+    animation: showup 9s ;
   }
   
   #kk48{
     width:0px;
-    animation: reveal 7s ;
+    animation: reveal 9s ;
   }
   
   #kk48 span {
     
-    animation: slidein 7s ;
+    animation: slidein 9s ;
   }
   
   @keyframes showup {
