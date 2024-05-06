@@ -4,9 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project parallex</title>
+    <title>Project parallax</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="parallex.css">
+    <style>
+        @keyframes slideInFromLeft {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        .navbar-nav {
+            animation: slideInFromLeft 1s ease-out;
+        }
+    </style>
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
@@ -48,12 +62,17 @@
                 EXPENSE TRAINING SOLUTION WITH D-feres.</p>
         </div>
     </div>
+    <!-- Rest of your HTML content -->
+</body>
+
+</html>
+
     <div class="pg2">
 
         <hr class="hr1">
         <div class="para">
-            <h1 style="margin-top: 4rem ;position: absolute;">WE'RE HERE tO RevOLUtiONiZE tHE<BR> WORLD
-                OF tRACKiNG thE Expense</h1>
+            <h1 style="margin-top: 4rem ;position: absolute;">WE'RE HERE tO REVOLUTIONIZE THE<BR> WORLD
+                OF TRACKING THE EXPENSE</h1>
             <div class="pg2para">
                 <p>This is the space to introduce visitors to the business<br> or brand. Briefly explain who's behind
                     it, what it does<br> and what makes it unique. Share its core values and <br>what this site has to
